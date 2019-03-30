@@ -18,16 +18,16 @@ body {
 }
 
 .name {
-  font-size: 17rem;
+  font-size: 15rem;
   text-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-  padding-left: 10px;
+  padding-left: 25px;
 }
 
 .role {
   margin-top: -50px;
-  font-size: 6rem;
+  font-size: 5rem;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.1);
-  padding-left: 20px;
+  padding-left: 40px;
   letter-spacing: 10px;
 }
 
@@ -37,6 +37,7 @@ body {
   font-family: 'Barlow', sans-serif;
   padding-left: 30px;
   padding-right: 30px;
+  margin-bottom: 0;
 }
 
 .infoRow {
@@ -64,7 +65,7 @@ body {
 }
 
 .techSkillDiv {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: 'Barlow', sans-serif;
   border: 1px solid rgba(255, 255, 255, 0.5);
   margin: 0;
@@ -72,26 +73,39 @@ body {
   border-radius: 2px;   
 }
 
-.link {
-  background-color: rgba(255, 255, 255, 0.1);
+.linkHeader {
   border: 1px rgba(255, 255, 255, 0) solid;
+  font-family: 'Barlow', sans-serif;
   border-radius: 2px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-size: 2rem;
-  margin-top: 5px;
-  text-align: center;
-  letter-spacing: 2px;
-
+  font-size: 1.25rem;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 1.5;
+  padding-left: 5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-decoration: none;
+  color: white;
 }
 
-.link:hover {
+.linkHeader:hover {
   background-color: rgba(255, 255, 255, 0);
   border-radius: 2px;
   cursor: pointer;
-  border: 1px rgba(255, 255, 255, 0.2) solid;
+  border: 1px rgba(255, 255, 255, 0.3) solid;
+  
+  
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -105,31 +119,6 @@ hr {
 
 .techs {
   font-family: 'Barlow', sans-serif
-}
-
-.techHeader {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 2rem;
-  padding-left: 15px;
-  padding-top: 5px;
-  letter-spacing: 2px;
-}
-
-.techDiv {
-  border: 1px rgb(255, 255, 255, 0.5) solid;
-  border-radius: 2px;
-  margin-top: 7px;
-  padding-top: 15px;
-  padding-bottom: 5px;
-}
-
-.techHeaderDiv {
-  padding-left: 0;
-  padding-right: 0;
-  background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 5px;
-  border-radius: 2px;
-  margin-bottom: 15px;
 }
 
 .borderless td {

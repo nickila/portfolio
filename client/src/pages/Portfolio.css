@@ -1,0 +1,66 @@
+.portfolioImg {
+    width: 25%;
+    margin: -1px;
+}
+
+.portfolioImg:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+    opacity: 1;
+}
+
+.siteInfo {
+    font-size: 1.25rem;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 10px;
+    text-align: justify;
+    color: rgb(66, 66, 66);
+    font-family: 'Barlow', sans-serif;
+}
+
+.sites {
+    width: 80%;
+    border-radius: 3px;
+    border: 2px rgb(223, 223, 223) solid;
+}
+
+.sites:hover {
+    border: 2px rgb(119, 246, 255) solid;
+    opacity: 0.9;
+    
+}
+
+.links a {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 0;
+    margin-top: 25px;
+    text-align: right;
+    margin-right: 25px;
+}
+.links:hover a:hover {
+    color: rgb(255, 142, 157);
+    text-decoration: none;
+
+}
+
+.section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.siteDiv {
+    text-align: center;
+}
+
+.portfolioHeader {
+    color: gray;
+    padding-left: 120px;
+}
+
+.siteHr {
+    border-color: rgba(255, 142, 157, 0.5);
+}
