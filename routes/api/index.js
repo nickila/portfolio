@@ -3,4 +3,4 @@ const messageRoutes = require("./messages");
 
 router.use("/messages", messageRoutes);
 
-module.export = router;
+module.exports = router;

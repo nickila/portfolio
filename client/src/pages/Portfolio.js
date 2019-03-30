@@ -8,7 +8,7 @@ function Portfolio() {
                 <h2 className="display-4 portfolioHeader">Portfolio</h2>
 
                 <div className="col-md-12 siteDiv">
-                    <a target="blank" href="http://green-street.herokuapp.com/"><img className="sites" src="images/green-street.png" /></a>
+                    <a target="blank" href="http://green-street.herokuapp.com/"><img className="sites" src="images/green-street.png" alt="Green Street" /></a>
                     <p className="siteInfo">Green Street is dedicated to solving the complex crisis of food deserts around
                         the world by thinking small. If every city block had a collection of backyard gardeners growing
                         fresh fruits, vegetables, honey and eggs, access to fresh food would be everywhere. Green Street
@@ -50,7 +50,7 @@ function Portfolio() {
 
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://nickila.github.io/clicky/"><img className="sites"
-                        src="images/clicky.png" /></a>
+                        src="images/clicky.png" alt="Clicky Game" /></a>
                     <p className="siteInfo">This game challenges a player to click each image only once. The challenge is
                         that every time you click an image, they shuffle randomly. A point is scored for every image
                         clicked, but if you click one twice, it resets your score to 0. A high score is saved. The
@@ -67,7 +67,7 @@ function Portfolio() {
                 <div className="col-md-12 siteDiv">
 
                     <a target="blank" href="https://pure-anchorage-12886.herokuapp.com/"><img className="sites"
-                        src="images/nytimes_scraper.png" /></a>
+                        src="images/nytimes_scraper.png" alt="News Scraper" /></a>
                     <p className="siteInfo">This site was created using Express, Node.js, Mongodb, Mongoose, Handlebars,
                         JavaScript, jQuery, Bootstrap and Cheerio by Brian Nickila, following specific instructions by
                         University of Minnesota BootCamp course for Full-Stack Development.
@@ -85,7 +85,7 @@ function Portfolio() {
                 <div className="col-md-12 siteDiv">
 
                     <a target="blank" href="https://aqueous-reef-17353.herokuapp.com/"><img className="sites"
-                        src="images/dogo2.png" /></a>
+                        src="images/dogo2.png" alt="Where My Dough Go?" /></a>
                     <p className="siteInfo">Where My Dough Go? allows a user to signup/login and add expenses by category.
                         The total amounts get stored and totaled into the category total space to allow the user where
                     all their respective dough go. I worked in collaboration with three talented students: <a
@@ -101,7 +101,7 @@ function Portfolio() {
                 </div>
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://calm-waters-23102.herokuapp.com/"><img className="sites"
-                        src="images/burger.png" /></a>
+                        src="images/burger.png" alt="Eat-da-Burger" /></a>
                     <p className="siteInfo">Eat-da-Burger uses MySQL for the database, Heroku for deployment,
                         jQuery, Bootstrap, HTML, CSS, Handlebars and Node.js. This app was created by Brian
                         Nickila with specific instruction by the Coding Boot Camp of the University of
@@ -115,7 +115,7 @@ function Portfolio() {
 
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://youtu.be/wDEec8nOevU"><img className="sites"
-                        src="images/bamazon.png" /></a>
+                        src="images/bamazon.png" alt="Bamazon" /></a>
                     <p className="siteInfo">Bamazon allows users to purchase products, adjusting database on hands
                         and tracking sales. It also allows a user to act as the manager adding new items,
                         tracking sales and checking low inventory. It also allows a user to act as a supervisor
@@ -130,7 +130,7 @@ function Portfolio() {
 
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://nickila.github.io/Project_1/"><img className="sites"
-                        src="images/our_house.png" /></a>
+                        src="images/our_house.png" alt="Our House" /></a>
                     <p className="siteInfo">My group and I created this website to help people find their local
                         representatives and contact information. My contributions consisted of HTML,
                         CSS/Bootstrap, Animate.css, JavaScript, jQuery and some of the Google Civics API.
@@ -144,7 +144,7 @@ function Portfolio() {
                 </div>
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://nickila.github.io/unit-4-game/"><img className="sites"
-                        src="images/doodle_poots.png" /></a>
+                        src="images/doodle_poots.png" alt="Doodle Poots" /></a>
                     <p className="siteInfo">This role-playing game was created during an intensive bootcamp
                         coding
                         course. I used HTML, CSS/Bootstrap, JavaScript and jQuery. The user chooses a
@@ -158,7 +158,7 @@ function Portfolio() {
                 </div>
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://nickila.github.io/Word-Guess-Game/"><img className="sites"
-                        src="images/hangman.png" /></a>
+                        src="images/hangman.png" alt="Hangman" /></a>
                     <p className="siteInfo">This classic hangman game was created with arcade-style games in
                         mind.
                         Bright colors agains a black background and large simple fonts make for a simple,
@@ -171,7 +171,7 @@ function Portfolio() {
                 </div>
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://nickila.github.io/GifTastic/"><img className="sites"
-                        src="images/giftastic.png" /></a>
+                        src="images/giftastic.png" alt="Gif Tastic" /></a>
                     <p className="siteInfo">Who doesn't like GIFs? This site lets users see ten GIFs from a
                         group
                         of themes or to create their own theme button and watch those GIFs instead. For
@@ -185,7 +185,7 @@ function Portfolio() {
                 </div>
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://nickila.github.io/train-scheduler/"><img className="sites"
-                        src="images/train_sched.png" /></a>
+                        src="images/train_sched.png" alt="Train Scheduler" /></a>
                     <p className="siteInfo">This train scheduler allows a user to create a unique login and
                         password in order to add trains, destinations, start times and frequency. Using
                         Firebase, the next arrival time is calculated and displayed to the viewer. Train
@@ -199,7 +199,7 @@ function Portfolio() {
                 </div>
                 <div className="col-md-12 siteDiv">
                     <a target="blank" href="https://nickila.github.io/TriviaGame/"><img className="sites"
-                        src="images/trivia_game.png" /></a>
+                        src="images/trivia_game.png" alt="Trivia Game" /></a>
                     <p className="siteInfo">Using a theme of the popular cartoon Adventure Time, I created this
                         classic trivia game. Users are asked a series of questions with multiple-choice
                         answers. Correct, incorrect and timed-out answers are all logged and displayed at

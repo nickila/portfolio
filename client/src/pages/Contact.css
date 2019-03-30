@@ -1,0 +1,26 @@
+.card {
+    margin-top: 100px;
+    border-color: #343a40;
+
+}
+
+label {
+    color: #343a40;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.25rem;
+    padding-left: 5px;
+}
+.contact-btn {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.25rem;
+    margin-top: 15px;
+}
+
+.card-header {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.contactMe {
+    font-size: 3rem;
+}

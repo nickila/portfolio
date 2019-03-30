@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
+import Navbar from "./components/Navbar";
 
 import "./App.css";
 
@@ -11,6 +12,7 @@ class App extends Component {
   render() {
     return (
       <Router>
+        <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
