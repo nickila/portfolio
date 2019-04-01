@@ -1,7 +1,7 @@
 body {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
-  background-color: rgb(197, 83, 75);
+  background-color: rgb(98, 130, 138);
 }
 
 .bioDiv {
@@ -18,25 +18,25 @@ body {
 }
 
 .name {
-  font-size: 12vw;
+  font-size: 13vw;
   text-shadow: -5px 5px rgba(0, 0, 0, 0.1);
   padding-left: 25px;
 }
 
 .nameDiv {
-  background-color: rgb(255, 136, 128);
+  background-color: rgb(151, 192, 202);
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.08);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 55px;
+  padding-bottom: 85px;
 
 }
 
 .role {
-  margin-top: -20px;
-  font-size: 3vw;
+  font-size: 4vw;
   text-shadow: -4px 4px rgba(0, 0, 0, 0.1);
   padding-left: 30px;
   letter-spacing: 1vw;
+  padding-bottom: 20px;
 }
 
 .bio {
@@ -136,6 +136,10 @@ table {
   padding-left: 10px;
 }
 
+.tableDiv {
+  padding-left: 20px;
+}
+
 
 @media only screen and (max-width: 1130px) {
   .fab {
@@ -157,15 +161,24 @@ table {
   }
   .name {
     padding-left: 0;
+    text-shadow: -2px 2px rgba(0, 0, 0, 0.1);
+    margin: 0;
+
   }
   .role {
     padding-left: 0;
+    text-shadow: -2px 2px rgba(0, 0, 0, 0.1);
+
   }
   .profileImg {
     width: 50%;
+    box-shadow: -3px 3px rgba(0, 0, 0, 0.1);
+
   }
-  table {
-    margin-left: 55px;
+  
+  .tableDiv {
+    margin-left: 1rem;
+    padding-left: 0;
   }
   .fab {
     padding-left: 40px;
@@ -176,4 +189,13 @@ table {
     padding-right: 0;
   }
 
+  .bio {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .bioDiv {
+    padding-left: 0;
+    margin-left: 1rem;
+  }
 }

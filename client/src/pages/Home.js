@@ -26,9 +26,9 @@ function Home() {
             </div >
             < div className="row infoRow" >
                 <div className="col-md-7 bioDiv">
-                    <p className="bio">Full-stack web developer creating apps and websites in a creative and user-friendly style in St. Paul, Minnesota. I have a bachelor of fine arts degree from the University of Wisconsin-Stevens Point and a certificate in full-stack web development from the University of Minnesota. When I'm not writing code, you might find me animating, playing guitar or camping. Please check out my <Link className="link" to="/portfolio">PORTFOLIO</Link> and feel free to <Link className="link" to="/contact" >CONTACT</Link> me for any reason. I'd love to hear from you.</p>
+                    <p className="bio">A BIT ABOUT ME<br />Full-stack web developer creating apps and websites in a creative and user-friendly style in St. Paul, Minnesota. I have a bachelor of fine arts degree from the University of Wisconsin-Stevens Point and a certificate in full-stack web development from the University of Minnesota. When I'm not writing code, you might find me animating, playing guitar or camping. Please check out my <Link className="link" to="/portfolio">PORTFOLIO</Link> and feel free to <Link className="link" to="/contact" >CONTACT</Link> me for any reason. I'd love to hear from you.</p>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-3 tableDiv">
                     <table className="table borderless">
                         <tr className="techs">
                             <td colspan="3" className="techHeader">TECHNOLOGIES</td>
