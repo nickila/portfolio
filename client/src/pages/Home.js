@@ -20,11 +20,10 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="col-md-3">
+                <div className="col-md-3 imgDiv">
                     <img className="profileImg" src="images/profile.png" alt="Brian Nickila profile" />
                 </div>
             </div >
-            {/* <hr className="homeHR" /> */}
             < div className="row infoRow" >
                 <div className="col-md-7 bioDiv">
                     <p className="bio">Full-stack web developer creating apps and websites in a creative and user-friendly style in St. Paul, Minnesota. I have a bachelor of fine arts degree from the University of Wisconsin-Stevens Point and a certificate in full-stack web development from the University of Minnesota. When I'm not writing code, you might find me animating, playing guitar or camping. Please check out my <Link className="link" to="/portfolio">PORTFOLIO</Link> and feel free to <Link className="link" to="/contact" >CONTACT</Link> me for any reason. I'd love to hear from you.</p>
@@ -68,7 +67,7 @@ function Home() {
                         <div className="row">
                         </div>
                         <div className="row">
-                            <div className="col-md-12">
+                            <div className="col-md-12 fabDiv">
                                 <a href="https://github.com/nickila"><i class="fab fa-github"></i></a>
                                 <a href="https://www.linkedin.com/in/brian-nickila"><i class="fab fa-linkedin"></i></a>
                             </div>
