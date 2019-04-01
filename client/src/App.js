@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Navbar from "./components/Navbar";
+import Resume from "./pages/Resume";
 
 import "./App.css";
 
@@ -17,6 +18,7 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/resume" component={Resume} />
           <Route component={NoMatch} />
         </Switch>
       </Router>

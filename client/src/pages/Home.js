@@ -5,10 +5,10 @@ function Home() {
     return (
         <div className="container-fluid">
             <div className="row nameDiv">
-                <div className="col-md-9">
-                    <div className="container">
+                <div className="col-md-9 name-role-div">
+                    <div className="container-fluid">
                         <div className="row">
-                            <div className="col-md-12">
+                            <div className="col-md-12 name-div">
                                 <h1 className="name">BRIAN NICKILA</h1>
                             </div>
                         </div>

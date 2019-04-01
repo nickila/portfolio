@@ -13,9 +13,9 @@ body {
   padding: 0;
 }
 
-.col-md-9 {
+/* .col-md-9 {
   padding-right: 0;
-}
+} */
 
 .name {
   font-size: 13vw;
@@ -109,10 +109,6 @@ ul {
   padding: 0;
 }
 
-.homeHR {
-  border-color: white;
-}
-
 .techs {
   font-family: 'Barlow', sans-serif;
 }
@@ -151,7 +147,7 @@ table {
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 750px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
@@ -160,18 +156,20 @@ table {
     text-align: center;
   }
   .name {
+    font-size: 19vw;
     padding-left: 0;
     text-shadow: -2px 2px rgba(0, 0, 0, 0.1);
     margin: 0;
 
   }
   .role {
+    font-size: 7vw;
     padding-left: 0;
     text-shadow: -2px 2px rgba(0, 0, 0, 0.1);
 
   }
   .profileImg {
-    width: 50%;
+    width: 90%;
     box-shadow: -3px 3px rgba(0, 0, 0, 0.1);
 
   }
@@ -197,5 +195,13 @@ table {
   .bioDiv {
     padding-left: 0;
     margin-left: 1rem;
+  }
+  .name-role-div {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .name-div {
+    padding: 0;
   }
 }
