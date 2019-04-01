@@ -1,6 +1,11 @@
+.contact-container {
+    background-color: rgb(255, 136, 128);
+}
+
 .card {
     margin-top: 100px;
-    border-color: #343a40;
+    border-color: rgb(197, 83, 75);
+    box-shadow: -3px 4px rgba(0, 0, 0, 0.08);
 
 }
 
@@ -14,11 +19,18 @@ label {
     font-family: 'Barlow', sans-serif;
     font-size: 1.25rem;
     margin-top: 15px;
+    background-color: rgb(197, 83, 75);
+    border-color: rgb(197, 83, 75);
 }
 
+.contact-btn:hover {
+    background-color: rgb(163, 55, 48);
+    border-color: rgb(163, 55, 48);
+    color: white;
+}
 .card-header {
-    background-color: #343a40;
-    border-color: #343a40;
+    background-color: rgb(197, 83, 75);;
+    border-color: rgb(197, 83, 75);;
 }
 
 .contactMe {

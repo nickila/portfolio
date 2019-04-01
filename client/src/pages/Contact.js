@@ -28,20 +28,26 @@ class Contact extends Component {
         }
         console.log("submit form!")
         let email = this.state.email;
-        if (validateEmail(email) && this.state.name && this.state.message) {
+        if (!this.state.name) {
+            alert("Please enter your name.")
+        } else if (!this.state.message) {
+            alert("Please leave a message.")
+        } else if (validateEmail(email) === false) {
+            alert("Please enter a valid email address.")
+        } else if (validateEmail(email) && this.state.name && this.state.message) {
             API.pushMessage({
                 name: this.state.name,
                 email: email,
                 message: this.state.message
             })
+            alert("Your message has been sent. Thank you.")
             this.setState({
                 name: "",
                 email: "",
                 message: ""
             })
-            console.log("Real Address!")
         } else {
-            alert("Please enter a valid email address.")
+            alert("Something went wrong. Please try again.")
             this.setState({
                 name: "",
                 email: "",
@@ -52,12 +58,12 @@ class Contact extends Component {
 
     render() {
         return (
-            <div className="container">
+            <div className="container-fluid contact-container">
                 <div className="row">
-                    <div className="col-md-9 mx-auto">
+                    <div className="col-md-6 mx-auto">
                         <div className="card">
                             <div className="card-header">
-                                <h2 className="contactMe">CONTACT ME</h2>
+                                <h2 className="contactMe">CONTACT</h2>
                             </div>
                             <div className="card-body">
                                 <form>
@@ -83,6 +89,9 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
+                <br />
+                <br />
+                <br />
             </div >
 
         )
