@@ -23,7 +23,6 @@ function Home() {
                 <div className="col-md-3">
                     <img className="profileImg" src="images/profile.png" alt="Brian Nickila profile" />
                 </div>
-
             </div >
             {/* <hr className="homeHR" /> */}
             < div className="row infoRow" >
