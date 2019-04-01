@@ -1,7 +1,7 @@
 body {
   font-family: "Barlow Condensed", sans-serif;
   color: white;
-  background-color: rgb(98, 130, 138);
+  background-color: rgb(113, 157, 168);
 }
 
 .bioDiv {
@@ -24,7 +24,7 @@ body {
 }
 
 .nameDiv {
-  background-color: rgb(151, 192, 202);
+  background-color: rgb(175, 209, 218);
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.08);
   padding-top: 65px;
   padding-bottom: 105px;
