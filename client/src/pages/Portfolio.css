@@ -31,8 +31,8 @@
 }
 
 .section {
-    background-color: rgb(204, 212, 219);
-    box-shadow: 0 3px 3px inset rgba(0, 0, 0, 0.3), 0 -3px 3px inset rgba(0, 0, 0, 0.3);
+    background-color: rgb(201, 223, 236);
+    box-shadow: 0 3px 3px inset rgba(0, 0, 0, 0.1), 0 -3px 3px inset rgba(0, 0, 0, 0.1);
     padding: 15px;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .portfolioHeaderDiv {
-    background-color: rgb(98, 130, 138);
+    background-color: rgb(121, 160, 182);
     border-radius: 4px 4px 0 0;
 
 }
