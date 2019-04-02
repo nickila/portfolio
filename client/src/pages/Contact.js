@@ -82,10 +82,10 @@ class Contact extends Component {
                                     <div>
                                         <button type="submit" className="btn btn-dark contact-btn" onClick={this.handleFormSubmit}>SUBMIT</button>
                                     </div>
-
+                                    <br />
+                                    <p className="emailLink">Or send me an email at <a href="mailto:brian.nickila@gmail.com">brian.nickila@gmail.com</a></p>
                                 </form>
                             </div>
-                            <br />
                         </div>
                     </div>
                 </div>
